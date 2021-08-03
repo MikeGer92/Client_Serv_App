@@ -1,5 +1,6 @@
 import json
-from variables import *
+from common.variables  import MAX_PACKAGE_LENGTH, ENCODING
+
 
 def get_message(sock):
     encoded_response = sock.recv(MAX_PACKAGE_LENGTH)

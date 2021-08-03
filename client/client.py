@@ -1,68 +1,56 @@
 import json
 import sys
 import socket
-from common.utils import *
+import time
+from common.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, \
+    RESPONSE, ERROR, DEFAULT_IP_ADDRESS, DEFAULT_PORT
+from common.utils import get_message, send_message
 
 
-# CLIENT_SOCK = socket(AF_INET, SOCK_STREAM)
-# CLIENT_SOCK.connect(('localhost', 8010))
-# MSG = "Привет, Сервер! Это я Клиент! Как слышно? Прием..."
-# CLIENT_SOCK.send(MSG.encode('utf-8'))
-# DATA = CLIENT_SOCK.recv(4096)
-# print(f"Сообщение от Сервера: {DATA.decode('utf-8')}. Длинна сообщения: {len(DATA)} байт")
-# CLIENT_SOCK.close()
+
+def create_presence(account_name='Guest'):
+    out = {
+        ACTION: PRESENCE,
+        TIME: time.time(),
+        USER: {
+            ACCOUNT_NAME: account_name
+        }
+    }
+    return out
 
 
-def process_client_message(message):
-    if ACTION in message and message[ACTION] == PRESENCE and TIME in message \
-            and USER in message and message[USER][ACCOUNT_NAME] == 'Guest':
-        return {RESPONSE: 200}
-    return {RESPONSE: 400, ERROR: 'Bad Request'}
-
-
+def process_ans(message):
+    if RESPONSE in message:
+        if message[RESPONSE] == 200:
+            return '200 : OK'
+        return f'400 : {message[ERROR]}'
+    raise ValueError
 
 
 def main():
+#client.py 192.168.1.185 8010
     try:
-        if '-p' in sys.argv:
-            listen_port = int(sys.argv[sys.argv.index('-p')+1])
-        else:
-            listen_port = DEFAULT_PORT
-        if 1024 < listen_port or listen_port > 65535:
+        server_address = sys.argv[1]
+        server_port = int(sys.argv[2])
+        if server_port < 1024 or server_port > 65535:
             raise ValueError
     except IndexError:
-        print('После параметра порта - \'p\' необходимо указать номер порта.')
-        sys.exit(1)
+        server_address = DEFAULT_IP_ADDRESS
+        server_port = DEFAULT_PORT
     except ValueError:
-        print('В качестве порта может быть указано только целое число в диапазоне от 1024 до 65535')
-        sys.exit(1)
-    try:
-        if '-a' in sys.argv:
-            listen_address = int(sys.argv[sys.argv.index('-a') + 1])
-        else:
-            listen_address = ''
-    except IndexError:
-        print('После параметра порта - \'a\' необходимо указать адрес, который будет слушать сервер.')
+        print('В качестве порта может быть указано только число в диапазоне от 1024 до 65535.')
         sys.exit(1)
 
     transport = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    transport.bind((listen_address, listen_port))
+    transport.connect((server_address, server_port))
+    message_to_server = create_presence()
+    send_message(transport, message_to_server)
+    try:
+        answer = process_ans(get_message(transport))
+        print(answer)
+    except (ValueError, json.JSONDecodeError):
+        print('Не удалось декодировать сообщение сервера.')
 
 
-    transport.listen(MAX_CONNECTIONS)
-
-    while True:
-        client, client_address = transport.accept()
-        try:
-            message_from_client = get_message(client)
-            print(message_from_client)
-            response = process_client_message(message_from_client)
-            send_message(client, response)
-            client.close()
-        except (ValueError, json.JSONDecodeError):
-            print('Принято некорректное сообщение от клиента')
-            client.close()
-
-
-if __name__ == '__main':
+if __name__ == '__main__':
     main()
