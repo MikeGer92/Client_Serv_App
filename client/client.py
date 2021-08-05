@@ -4,14 +4,14 @@ import socket
 import time
 from common.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, \
     RESPONSE, ERROR, DEFAULT_IP_ADDRESS, DEFAULT_PORT
-from common.utils import get_message, send_message
+from common.utils import get_message, send_message, get_correct_time
 
 
 
 def create_presence(account_name='Guest'):
     out = {
         ACTION: PRESENCE,
-        TIME: time.time(),
+        TIME: get_correct_time(time.time()),
         USER: {
             ACCOUNT_NAME: account_name
         }
@@ -28,7 +28,7 @@ def process_ans(message):
 
 
 def main():
-#client.py 192.168.1.185 8010
+#client.py 192.168.1.185 8020
     try:
         server_address = sys.argv[1]
         server_port = int(sys.argv[2])
