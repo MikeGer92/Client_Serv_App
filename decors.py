@@ -1,7 +1,5 @@
 import sys
 import logging
-import proj_logs.configs.server_log_conf
-import proj_logs.configs.client_log_conf
 import traceback
 import inspect
 
@@ -17,7 +15,7 @@ def log(func_to_log):
         LOGGER.debug(f'Вызов функции {func_to_log.__name__} c параметрами {args}, {kwargs}. '
                      f'Вызов из модуля {func_to_log.__module__}. Вызов из'
                      f' функции {traceback.format_stack()[0].strip().split()[-1]}.'
-                     f'Вызов из функции {inspect.stack()[1][3]}')
+                     f'Вызов из функции {inspect.stack()[1][3]}', stacklevel=2)
         return ret
 
     return log_saver
@@ -30,7 +28,7 @@ class Log:
             LOGGER.debug(f'Вызов функции {func_to_log.__name__} c параметрами {args}, {kwargs}. '
                          f'Вызов из модуля {func_to_log.__module__}. Вызов из'
                          f' функции {traceback.format_stack()[0].strip().split()[-1]}.'
-                         f'Вызов из функции {inspect.stack()[1][3]}')
+                         f'Вызов из функции {inspect.stack()[1][3]}', stacklevel=2)
             return ret
 
         return log_saver

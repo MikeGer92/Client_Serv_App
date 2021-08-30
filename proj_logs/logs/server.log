@@ -1,106 +1,32 @@
-2021-08-11 11:22:59,152 - INFO - Старт сервера
-2021-08-11 11:23:06,594 - INFO - Соединение с клиентом 192.168.82.108 выполнено
-2021-08-11 11:23:06,594 - INFO - Получено сообщение от <socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 51968)>
-2021-08-11 11:23:06,594 - INFO - Ответ для <socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 51968)> сформирован
-2021-08-11 11:23:06,594 - INFO - Ответ для <socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 51968)> успешно отправлен
-2021-08-11 11:23:06,594 - DEBUG - Соединение с <socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 51968)> закрывается
-2021-08-11 16:07:33,139 - INFO - Старт сервера
-2021-08-11 16:07:41,230 - INFO - Соединение с клиентом 192.168.82.108 выполнено
-2021-08-11 16:07:41,259 - INFO - Получено сообщение от <socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 65301)>
-2021-08-11 16:07:41,259 - INFO - Ответ для <socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 65301)> сформирован
-2021-08-11 16:07:41,259 - INFO - Ответ для <socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 65301)> успешно отправлен
-2021-08-11 16:07:41,259 - DEBUG - Соединение с <socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 65301)> закрывается
-2021-08-11 16:09:16,074 - INFO - Соединение с клиентом 192.168.82.108 выполнено
-2021-08-11 16:09:16,085 - INFO - Получено сообщение от <socket.socket fd=328, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 56308)>
-2021-08-11 16:09:16,085 - INFO - Ответ для <socket.socket fd=328, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 56308)> сформирован
-2021-08-11 16:09:16,085 - INFO - Ответ для <socket.socket fd=328, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 56308)> успешно отправлен
-2021-08-11 16:09:16,085 - DEBUG - Соединение с <socket.socket fd=328, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 56308)> закрывается
-2021-08-11 16:12:43,870 - INFO - Старт сервера
-2021-08-11 16:12:55,740 - INFO - Соединение с клиентом 192.168.82.108 выполнено
-2021-08-11 16:12:55,740 - INFO - Получено сообщение от <socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 58593)>
-2021-08-11 16:12:55,756 - INFO - Ответ для <socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 58593)> сформирован
-2021-08-11 16:12:55,756 - INFO - Ответ для <socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 58593)> успешно отправлен
-2021-08-11 16:12:55,756 - DEBUG - Соединение с <socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 58593)> закрывается
-2021-08-11 16:13:51,310 - INFO - Соединение с клиентом 192.168.82.108 выполнено
-2021-08-11 16:13:51,323 - INFO - Получено сообщение от <socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 52858)>
-2021-08-11 16:13:51,323 - INFO - Ответ для <socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 52858)> сформирован
-2021-08-11 16:13:51,323 - INFO - Ответ для <socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 52858)> успешно отправлен
-2021-08-11 16:13:51,323 - DEBUG - Соединение с <socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 52858)> закрывается
-2021-08-11 16:18:51,875 - INFO - server.py - Старт сервера
-2021-08-11 16:18:58,447 - INFO - server.py - Соединение с клиентом 192.168.82.108 выполнено
-2021-08-11 16:18:58,458 - INFO - server.py - Получено сообщение от <socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 52601)>
-2021-08-11 16:18:58,459 - INFO - server.py - Ответ для <socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 52601)> сформирован
-2021-08-11 16:18:58,459 - INFO - server.py - Ответ для <socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 52601)> успешно отправлен
-2021-08-11 16:18:58,459 - DEBUG - server.py - Соединение с <socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 52601)> закрывается
-2021-08-11 16:20:11,567 - INFO - server.py - Соединение с клиентом 192.168.82.108 выполнено
-2021-08-11 16:20:11,567 - WARNING - server.py - Сообщение от <socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 51260)> прочитать не удалось
-2021-08-11 16:20:11,567 - DEBUG - server.py - Соединение с <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0> закрыто
-2021-08-11 16:21:08,077 - INFO - server.py - Старт сервера
-2021-08-11 16:21:12,562 - INFO - server.py - Соединение с клиентом 192.168.82.108 выполнено
-2021-08-11 16:21:12,564 - WARNING - server.py - Сообщение от <socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 56406)> прочитать не удалось
-2021-08-11 16:21:12,564 - DEBUG - server.py - Соединение с <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0> закрыто
-2021-08-11 16:26:45,001 - INFO - server.py - Старт сервера
-2021-08-11 16:26:51,125 - INFO - server.py - Соединение с клиентом 192.168.82.108 выполнено
-2021-08-11 16:26:51,127 - WARNING - server.py - Сообщение от <socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 53114)> прочитать не удалось
-2021-08-11 16:26:51,127 - DEBUG - server.py - Соединение с <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0> закрыто
-2021-08-11 16:28:29,272 - INFO - server.py - Соединение с клиентом 192.168.82.108 выполнено
-2021-08-11 16:28:29,274 - WARNING - server.py - Сообщение от <socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 51516)> прочитать не удалось
-2021-08-11 16:28:29,275 - DEBUG - server.py - Соединение с <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0> закрыто
-2021-08-11 16:28:56,626 - INFO - server.py - Старт сервера
-2021-08-11 16:29:01,270 - INFO - server.py - Соединение с клиентом 192.168.82.108 выполнено
-2021-08-11 16:29:01,272 - WARNING - server.py - Сообщение от <socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 64253)> прочитать не удалось
-2021-08-11 16:29:01,272 - DEBUG - server.py - Соединение с <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0> закрыто
-2021-08-11 16:30:11,356 - INFO - server.py - Старт сервера
-2021-08-11 16:30:17,770 - INFO - server.py - Соединение с клиентом 192.168.82.108 выполнено
-2021-08-11 16:30:17,771 - WARNING - server.py - Сообщение от <socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 65383)> прочитать не удалось
-2021-08-11 16:30:17,772 - DEBUG - server.py - Соединение с <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0> закрыто
-2021-08-11 16:32:01,030 - INFO - server.py - Старт сервера
-2021-08-11 16:32:05,545 - INFO - server.py - Соединение с клиентом 192.168.82.108 выполнено
-2021-08-11 16:32:05,545 - WARNING - server.py - Сообщение от <socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 56923)> прочитать не удалось
-2021-08-11 16:32:05,545 - DEBUG - server.py - Соединение с <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0> закрыто
-2021-08-11 16:33:55,948 - INFO - server.py - Старт сервера
-2021-08-11 16:34:01,459 - INFO - server.py - Соединение с клиентом 192.168.82.108 выполнено
-2021-08-11 16:34:01,473 - INFO - server.py - Получено сообщение от <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 61862)>
-2021-08-11 16:34:01,473 - INFO - server.py - Ответ для <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 61862)> сформирован
-2021-08-11 16:34:01,473 - INFO - server.py - Ответ для <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 61862)> успешно отправлен
-2021-08-11 16:34:01,473 - DEBUG - server.py - Соединение с <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 61862)> закрывается
-2021-08-11 16:38:40,503 - INFO - server.py - Соединение с клиентом 192.168.82.108 выполнено
-2021-08-11 16:38:40,518 - INFO - server.py - Получено сообщение от <socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 60138)>
-2021-08-11 16:38:40,518 - INFO - server.py - Ответ для <socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 60138)> сформирован
-2021-08-11 16:38:40,518 - INFO - server.py - Ответ для <socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 60138)> успешно отправлен
-2021-08-11 16:38:40,518 - DEBUG - server.py - Соединение с <socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 60138)> закрывается
-2021-08-11 16:40:44,013 - INFO - server.py - Соединение с клиентом 192.168.82.108 выполнено
-2021-08-11 16:40:44,026 - INFO - server.py - Получено сообщение от <socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 52263)>
-2021-08-11 16:40:44,026 - INFO - server.py - Ответ для <socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 52263)> сформирован
-2021-08-11 16:40:44,026 - INFO - server.py - Ответ для <socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 52263)> успешно отправлен
-2021-08-11 16:40:44,027 - DEBUG - server.py - Соединение с <socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 52263)> закрывается
-2021-08-11 16:58:02,272 - INFO - server.py - Старт сервера
-2021-08-11 16:58:06,722 - INFO - server.py - Соединение с клиентом 192.168.82.108 выполнено
-2021-08-11 16:58:06,722 - INFO - server.py - Получено сообщение от <socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 60652)>
-2021-08-11 16:58:06,722 - INFO - server.py - Ответ для <socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 60652)> сформирован
-2021-08-11 16:58:06,738 - INFO - server.py - Ответ для <socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 60652)> успешно отправлен
-2021-08-11 16:58:06,738 - DEBUG - server.py - Соединение с <socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 60652)> закрывается
-2021-08-11 17:24:57,433 - INFO - server.py - Старт сервера
-2021-08-11 17:25:11,256 - INFO - server.py - Соединение с клиентом 192.168.82.108 выполнено
-2021-08-11 17:25:11,271 - INFO - server.py - Получено сообщение от <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 55068)>
-2021-08-11 17:25:11,271 - INFO - server.py - Ответ для <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 55068)> сформирован
-2021-08-11 17:25:11,271 - INFO - server.py - Ответ для <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 55068)> успешно отправлен
-2021-08-11 17:25:11,272 - DEBUG - server.py - Соединение с <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 55068)> закрывается
-2021-08-11 17:27:34,248 - INFO - server.py - Старт сервера
-2021-08-11 17:27:41,868 - INFO - server.py - Соединение с клиентом 192.168.82.108 выполнено
-2021-08-11 17:27:41,883 - INFO - server.py - Получено сообщение от <socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 59591)>
-2021-08-11 17:27:41,897 - INFO - server.py - Ответ для <socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 59591)> сформирован
-2021-08-11 17:27:41,897 - INFO - server.py - Ответ для <socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 59591)> успешно отправлен
-2021-08-11 17:27:41,897 - DEBUG - server.py - Соединение с <socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 59591)> закрывается
-2021-08-11 17:30:35,523 - INFO - server.py - Старт сервера
-2021-08-11 17:30:41,016 - INFO - server.py - Соединение с клиентом 192.168.82.108 выполнено
-2021-08-11 17:30:41,027 - INFO - server.py - Получено сообщение от <socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 51265)>
-2021-08-11 17:30:41,040 - INFO - server.py - Ответ для <socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 51265)> сформирован
-2021-08-11 17:30:41,040 - INFO - server.py - Ответ для <socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 51265)> успешно отправлен
-2021-08-11 17:30:41,040 - DEBUG - server.py - Соединение с <socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 51265)> закрывается
-2021-08-11 17:37:51,479 - INFO - server.py - Старт сервера
-2021-08-11 17:37:58,786 - INFO - server.py - Соединение с клиентом 192.168.82.108 выполнено
-2021-08-11 17:37:58,798 - INFO - server.py - Получено сообщение от <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 54415)>
-2021-08-11 17:37:58,813 - INFO - server.py - Ответ для <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 54415)> сформирован
-2021-08-11 17:37:58,814 - INFO - server.py - Ответ для <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 54415)> успешно отправлен
-2021-08-11 17:37:58,814 - DEBUG - server.py - Соединение с <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 54415)> закрывается
+2021-08-30 12:02:38,875 - INFO - server.py - Старт сервера
+2021-08-30 12:02:46,210 - INFO - server.py - Соединение с клиентом 192.168.82.108 выполнено
+2021-08-30 12:02:46,234 - INFO - server.py - Получено сообщение от <socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 55825)>
+2021-08-30 12:02:46,250 - INFO - server.py - Ответ для <socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 55825)> сформирован
+2021-08-30 12:02:46,250 - INFO - server.py - Ответ для <socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 55825)> успешно отправлен
+2021-08-30 12:02:46,250 - DEBUG - server.py - Соединение с <socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 55825)> закрывается
+2021-08-30 12:29:36,926 - INFO - server.py - Старт сервера
+2021-08-30 12:34:11,504 - INFO - server.py - Старт сервера
+2021-08-30 15:36:32,840 - INFO - server.py - Старт сервера
+2021-08-30 15:36:52,177 - INFO - server.py - Соединение с клиентом 192.168.82.108 выполнено
+2021-08-30 15:36:52,192 - INFO - server.py - Получено сообщение от <socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 59234)>
+2021-08-30 15:36:52,206 - INFO - server.py - Ответ для <socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 59234)> сформирован
+2021-08-30 15:36:52,206 - INFO - server.py - Ответ для <socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 59234)> успешно отправлен
+2021-08-30 15:36:52,206 - DEBUG - server.py - Соединение с <socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 59234)> закрывается
+2021-08-30 15:40:19,522 - INFO - server.py - Старт сервера
+2021-08-30 15:40:27,185 - INFO - server.py - Соединение с клиентом 192.168.82.108 выполнено
+2021-08-30 15:40:27,201 - INFO - server.py - Получено сообщение от <socket.socket fd=296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 51470)>
+2021-08-30 15:40:27,214 - INFO - server.py - Ответ для <socket.socket fd=296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 51470)> сформирован
+2021-08-30 15:40:27,214 - INFO - server.py - Ответ для <socket.socket fd=296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 51470)> успешно отправлен
+2021-08-30 15:40:27,214 - DEBUG - server.py - Соединение с <socket.socket fd=296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 51470)> закрывается
+2021-08-30 15:51:23,197 - INFO - server.py - Старт сервера
+2021-08-30 15:51:31,942 - INFO - server.py - Соединение с клиентом 192.168.82.108 выполнено
+2021-08-30 15:51:31,958 - INFO - server.py - Получено сообщение от <socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 55399)>
+2021-08-30 15:51:31,973 - INFO - server.py - Ответ для <socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 55399)> сформирован
+2021-08-30 15:51:31,973 - INFO - server.py - Ответ для <socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 55399)> успешно отправлен
+2021-08-30 15:51:31,973 - DEBUG - server.py - Соединение с <socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 55399)> закрывается
+2021-08-30 15:53:17,906 - INFO - server.py - Старт сервера
+2021-08-30 15:53:24,107 - INFO - server.py - Соединение с клиентом 192.168.82.108 выполнено
+2021-08-30 15:53:24,126 - INFO - server.py - Получено сообщение от <socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 58734)>
+2021-08-30 15:53:24,126 - INFO - server.py - Ответ для <socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 58734)> сформирован
+2021-08-30 15:53:24,126 - INFO - server.py - Ответ для <socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 58734)> успешно отправлен
+2021-08-30 15:53:24,126 - DEBUG - server.py - Соединение с <socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.82.108', 8050), raddr=('192.168.82.108', 58734)> закрывается

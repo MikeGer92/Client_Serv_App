@@ -1,15 +1,16 @@
+import argparse
 import json
 import logging
 import sys
 import socket
 import time
-
-sys.path.append('../')
 from common.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, \
     RESPONSE, ERROR, DEFAULT_IP_ADDRESS, DEFAULT_PORT
-from common.utils import get_message, send_message, get_correct_time
 from proj_logs.configs import client_log_conf
-from decors import log, Log, LOGGER
+from common.utils import get_message, send_message, get_correct_time
+from decors import log, Log
+
+sys.path.append('../')
 
 CLIENTS_LOGGER = logging.getLogger('client')
 
@@ -34,14 +35,28 @@ def process_ans(message):
         return f'400 : {message[ERROR]}'
     raise ValueError
 
+#Получение параметров с помощью парсера параметров
+Log()
+def create_arg_parser():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('address', default=DEFAULT_IP_ADDRESS, nargs='?')
+    parser.add_argument('port', default=DEFAULT_PORT, nargs='?')
+    return parser
+
 
 def main():
     # client.py 192.168.1.185 8020
     # client_work.py  192.168.82.108 8050
+    parser = create_arg_parser()
+    namespace = parser.parse_args(sys.argv[1:])
+    server_adr = namespace.address
+    server_port = namespace.port
 
     try:
-        server_address = sys.argv[1]
-        server_port = int(sys.argv[2])
+        # server_address = sys.argv[1]
+        server_address = server_adr
+        # server_port = int(sys.argv[2])
+        server_port = int(server_port)
         if server_port < 1024 or server_port > 65535:
             raise ValueError
     except IndexError:

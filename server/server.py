@@ -2,12 +2,13 @@ import socket
 import logging
 import sys
 import json
-sys.path.append('../')
 from common.variables import ACTION, ACCOUNT_NAME, RESPONSE, MAX_CONNECTIONS, \
     PRESENCE, TIME, USER, ERROR, DEFAULT_PORT
-from common.utils import get_message, send_message
 from proj_logs.configs import server_log_conf
-from decors import log, Log
+from common.utils import get_message, send_message
+from decors import Log
+
+sys.path.append('../')
 
 SERVERS_LOGGER = logging.getLogger('server')
 
@@ -77,6 +78,7 @@ def main():
             print('Принято некорретное сообщение от клиента.')
             client.close()
             SERVERS_LOGGER.debug(f'Соединение с {client} закрыто')
+
 
 
 if __name__ == '__main__':
